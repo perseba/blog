@@ -240,7 +240,7 @@ Od wersji 4.0 IPython funkcjonuje już jako podstawowy kernel Jupytera, o czym p
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Kernele-do-ponad-40-języków"&gt;Kernele do ponad 40 j&amp;#281;zyk&amp;#243;w&lt;a class="anchor-link" href="#Kernele-do-ponad-40-języków"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;W sumie nie znalazłem dobrego tłumaczenia dla słowa kernel. W przypadku Jupytera "kernele" to interpretery różnych języków, które można dograć do podstawowej wersji. Z drugiej strony takie środowiska zawierają również dodatkowe funkcje ułatwiające pracę w Jupyterze, stąd też trudno określić je jedynie jako interpreter.&lt;/p&gt;
-&lt;p&gt;Listę dostępnych kerneli znajdziemy pod tym adresem: &lt;a href="https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages"&gt;https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Listę dostępnych kerneli znajdziemy pod tym adresem &lt;a href="https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages"&gt;LINK&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="perseba.github.io/media/jupyter-katalog2.png" alt="Alt Text"&gt; &lt;br /&gt;
 &lt;small&gt;Możliwość wyboru kernela w jakim mają być wykonywane komórki Jupytera&lt;/small&gt;&lt;/p&gt;
 
@@ -284,7 +284,7 @@ Od wersji 4.0 IPython funkcjonuje już jako podstawowy kernel Jupytera, o czym p
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="Instalacja"&gt;Instalacja&lt;a class="anchor-link" href="#Instalacja"&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Instrukcje instalacji znajdziemy w dokumentacji: &lt;a href="http://jupyter.readthedocs.org/en/latest/install.html"&gt;http://jupyter.readthedocs.org/en/latest/install.html&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="Instalacja"&gt;Instalacja&lt;a class="anchor-link" href="#Instalacja"&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Instrukcje instalacji znajdziemy w dokumentacji &lt;a href="http://jupyter.readthedocs.org/en/latest/install.html"&gt;LINK&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Jupyter tak samo jak Python działa na trzech najpopularnijszych systemach operacyjnych.&lt;/p&gt;
 
 &lt;/div&gt;
