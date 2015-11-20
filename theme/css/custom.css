@@ -1,0 +1,195 @@
+
+
+
+.body{
+min-height: calc(100vh - 215px);
+}
+
+.archives-style{
+min-height: calc(100vh - 215px);
+}
+
+.article-style{
+min-height: calc(100vh - 415px);
+}
+
+
+.content-style{
+min-height: calc(100vh - 145px);
+
+}
+
+.article-title{
+font-family: "Cousine", "Noto Sans", "Helvetica Neue", sans-serif;
+font-size: 3.3em;
+color: #000;
+margin-top: 60px;
+margin-bottom: 20px;
+font-weight: 600;
+}
+
+
+h1, h2, h3{
+color: #999;
+
+}
+
+.date-style{
+margin-bottom: 60px;
+
+
+}
+
+.color-grey{
+color: #CCC;
+}
+
+.color-darkgrey{
+color: #777;
+
+}
+
+p{
+font-size: 1.4em;
+color: #333;
+padding: .5em 0;
+}
+
+
+td {
+padding: 5px;
+}
+.navbar-toggle{
+border-radius: 0px;
+text-decoration-style: solid;
+border-color: #FFF;
+} 
+
+
+
+
+.navbar-default .navbar-toggle {
+	border-color: #FFF;
+}
+
+
+.pagination-lg > li:last-child > a, .pagination-lg > li:last-child > span {
+	border-radius: 0px;
+	border: 0px;
+}
+
+.pagination-lg > li:first-child > a, .pagination-lg > li:first-child > span {
+	border-radius: 0px;
+	border: 0px;
+}
+
+
+
+
+.more-style{
+	font-size: 1.0em;
+	color: #FFF;
+	background-color: #000;
+	padding: 3px 6px 1px 5px;
+	border: 0;
+}
+
+.pager li > a, .pager li > span {
+	font-size: 1.6em;
+	color: #777;
+	border-radius: 0px;
+	border: 0px;
+}
+
+
+.pagination-lg > li > a, .pagination-lg > li > span {
+	border: 0px;
+}
+
+.pager li > a:hover, .pager li > a:focus{
+	font-size: 1.6em;
+	color: #777;
+	border-radius: 0px;
+	border: 0px;
+}
+
+
+
+.alpha60 {
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(255, 255, 255, 0.90);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+
+#UP{
+border: 0px;	
+}
+
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+background-color: #000;
+color: #FFF;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+background-color: #000;
+color: #FFF;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+background-color: #000;
+color: #FFF;
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+background-color: #000;
+color: #FFF;	
+}
+
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+color: #000;
+background-color:  #FFF	
+}
+
+
+
+
+
+
+mark, .mark {
+	background-color: #000;
+	padding: 0.3em;
+	color: #FFF;
+
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+background-color: #000;
+
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	background-color: #FFF
+}
+
+
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  70% { opacity: 0.0; }
+}
+
+
