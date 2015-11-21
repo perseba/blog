@@ -20,7 +20,7 @@ min-height: calc(100vh - 145px);
 }
 
 .article-title{
-font-family: "Cousine", "Noto Sans", "Helvetica Neue", sans-serif;
+font-family: 'Cantata One', "Helvetica Neue", serif;
 font-size: 3.3em;
 color: #000;
 margin-top: 60px;
@@ -30,14 +30,19 @@ font-weight: 600;
 
 
 h1, h2, h3{
-color: #999;
+color: #000;
+font-family: 'Cantata One', "Helvetica Neue", serif;
 
 }
 
 .date-style{
-margin-bottom: 60px;
+margin-bottom: 30px;
 
 
+}
+
+.entry-title{
+	text-transform: uppercase;
 }
 
 .color-grey{
@@ -50,9 +55,21 @@ color: #777;
 }
 
 p{
-font-size: 1.4em;
-color: #333;
-padding: .5em 0;
+font-size: 1.2em;
+color: #000;
+padding-bottom: .5em 0;
+}
+
+p > a{
+	color: rgb(255, 86, 0);
+	text-transform:uppercase;
+	font-weight: bold;
+}
+
+ul > li > a{
+	color: rgb(255, 86, 0);
+	text-transform:uppercase;
+	font-weight: bold;
 }
 
 
@@ -141,6 +158,7 @@ color: #FFF;
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
 background-color: #000;
 color: #FFF;
+
 }
 
 
@@ -193,3 +211,43 @@ background-color: #000;
 }
 
 
+div.prompt {display:none}
+
+div.inner_cell{
+padding-left: 0px;
+}
+
+
+#content > article > div.entry-content.article-style > div > div > div:nth-child(3) > div.inner_cell > div{
+	padding-left: 0em;
+	padding-top: 0em;
+}
+
+#content > article > div.entry-content.article-style > div > div > div{
+	padding-left: 0em;
+	padding-right: 0em;	
+}
+
+#content > article > div.entry-content.article-style > div > div > div > div.inner_cell > div{
+	padding-left: 0em;
+	padding-right: 0em;		
+
+}
+
+#content > article > div.entry-content.article-style > div > div > div:nth-child(3){
+	padding-top: 0em;
+}
+
+
+#disqus_thread {
+     position: relative;
+}
+#disqus_thread:after {
+     content: "";
+     display: block;
+     height: 55px;
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+     background: white;
+}

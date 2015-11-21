@@ -25,11 +25,12 @@
     <!-- Bootstrap -->
         <link rel="stylesheet" href="./theme/css/bootstrap.limelink.min.css" type="text/css"/>
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cantata+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Cousine:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
-    <link href="./theme/css/pygments/github.css" rel="stylesheet">
+    <link href="./theme/css/pygments/solarizeddark.css" rel="stylesheet">
     <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
         <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
             title="blog@perseba.github.io: ATOM Feed"/>
@@ -56,10 +57,10 @@
                                 
                                     <li>
                                     <a href="./pages/o-blogu.html">
-                                        <!---<mark>-->/O blogu<!---</mark>>-->
+                                        <!---<mark>-->/ O blogu<!---</mark>>-->
                                     </a>
                                 </li>
-                            <li><a href="./archives.html"><!--<i class="fa fa-th-list"></i>--><!---<mark>-->/Archiwum<!---</mark>--></a></li>
+                            <li><a href="./archives.html"><!--<i class="fa fa-th-list"></i>--><!---<mark>-->/ Archiwum<!---</mark>--></a></li>
                     </ul>
                 </div>
             </div>
@@ -86,7 +87,7 @@
                 <div class="col-md-12 date-style">
                     <!--<div class="panel-body"> -->
                     <!--<span class="published"> -->
-                    <time datetime="2015-11-20T19:00:00+01:00"> 20 | lis | 2015  </time>
+                    <time datetime="2015-11-20T19:00:00+01:00"><i class="fa fa-calendar-o"></i>   20  lis  2015  </time>
                     <!-- </span> -->
                     
                     <!--</div>-->
@@ -169,8 +170,7 @@
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>W pierwszym blogowym wpisie będę chciał przedstawić znakomity program do prowadzenia statystycznych anliz danych. Dodam, że wykorzystuję go równocześnie do napisania tego postu. Mowa oczywiście o tytułowym <a href="http://jupyter.org/"><strong>Jupyterze</strong></a>, czyli przeglądarkowej aplikacji pozwalającej na interaktywną analizę danych z wykorzystaniem wielu skryptowych języków programowania. Wśród nich znajdziemy popularne języki <strong>Python</strong> czy <strong>R</strong>, jak i te mniej popularne w zastosowaniach analitycznych jak <strong>Ruby</strong>, czy <strong>Javascript</strong>.</p>
-
+<p class="lead">W pierwszym blogowym wpisie będę chciał przedstawić znakomity program do prowadzenia statystycznych anliz danych. Dodam, że wykorzystuję go równocześnie do napisania tego postu. Mowa oczywiście o tytułowym <a href="http://jupyter.org/"><b>Jupyterze</b></a>, czyli przeglądarkowej aplikacji pozwalającej na interaktywną analizę danych z wykorzystaniem wielu skryptowych języków programowania. Wśród nich znajdziemy popularne języki <b>Python</b> czy <b>R</b>, jak i te mniej popularne w zastosowaniach analitycznych jak <b>Ruby</b>, czy <b>Javascript</b>.</p>
 </div>
 </div>
 </div>
@@ -182,9 +182,9 @@
 <h1 id="Jupyter-Notebook">Jupyter Notebook<a class="anchor-link" href="#Jupyter-Notebook">&#182;</a></h1><p>Jupter to w pierwszej kolejności przeglądarkowe środowisko do pisania skryptów. Pierwotnym projektem na bazie którego powstał Jupyter jest <a href="http://ipython.org/">IPython</a>, którego ostatnim wydaniem jako osobnego programu była wersja 3.0. 
 Od wersji 4.0 IPython funkcjonuje już jako podstawowy kernel Jupytera, o czym przeczytamy dalej.</p>
 <p>Samym Jupyterem możemy pobawić się na <a href="https://try.jupyter.org/">try.jupyter.org</a></p>
-<p><img src="./media/jupyter-katalog.png" alt="Alt Text">
-<small>Strona główna Jupytera</small></p>
-
+<!--
+![Alt Text]({filename}/media/jupyter-katalog.png)
+<small>Strona główna Jupytera</small> -->
 </div>
 </div>
 </div>
@@ -195,9 +195,11 @@ Od wersji 4.0 IPython funkcjonuje już jako podstawowy kernel Jupytera, o czym p
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="W-czym-kodziłby-Galileusz?">W czym kodzi&#322;by Galileusz?<a class="anchor-link" href="#W-czym-kodziłby-Galileusz?">&#182;</a></h2><p>Ogólnie notatnik Jupytera możemy określić jako połączenie graficznego <a href="https://pl.wikipedia.org/wiki/Zintegrowane_%C5%9Brodowisko_programistyczne">IDE</a> z konsolą. Chociaż mi przypomina trochę Worda z możliwością pisania i wykonywania kodu.</p>
 <p>Przyznać należy, że twórcy Jupytera byli również kreatywni co do samej nazwy. Z jednej strony jest to akronim od nazw trzech języków programowania wykorzystywanych do obliczeń naukowych: nieco mniej popularnej <a href="http://julialang.org/">Julii</a>, jak także znanych szerzej <a href="https://www.python.org/">Pythona</a> i <a href="https://www.r-project.org/">eRa</a>. Druga ciekawostka ukryta w nazwie to nawiązanie do notatnika Galileusza w którym Uczony zapisywał wyniki swoich obserwacji plam słonecznych, czy księżyców Jowisza. Do tych ostatnich badań nawiązuje również logo projektu.</p>
-<p><img src="./media/jupyter-katalog1.png" alt="Alt Text">
-<small>Przykładowy notatnik Jupytera</small></p>
-<p>Sam Jupyter Notebook nawiązuje logiką zapisu do notatnika Galileusza, co możemy zobaczyć na przykład <a href="https://upload.wikimedia.org/wikipedia/en/c/ca/Medicean_Stars.png">TU</a> [505kB], <a href="http://woodahl.physics.iupui.edu/Astro105/03-23.jpg">TU</a> [180kB], lub <a href="http://www.dioi.org/galileo/scans.pdf">TU</a> [42MB].</p>
+<!--
+![Alt Text]({filename}/media/jupyter-katalog1.png)
+<small>Przykładowy notatnik Jupytera</small> -->
+
+<p>Sam Jupyter Notebook przypomina notatnik Galileusza, co możemy ocenić sami. Skany i przedruki notatnika znajdziemy <a href="https://upload.wikimedia.org/wikipedia/en/c/ca/Medicean_Stars.png">TU</a> [505kB], <a href="http://woodahl.physics.iupui.edu/Astro105/03-23.jpg">TU</a> [180kB] lub <a href="http://www.dioi.org/galileo/scans.pdf">TU</a> [42MB].</p>
 <p>Działanie notatnika opiera się na komórkach, w których możemy pisać polecenia. Wykonanie polecenia przeważnie zwraca wynik lub komunikat pod komórką.</p>
 
 </div>
@@ -208,7 +210,7 @@ Od wersji 4.0 IPython funkcjonuje już jako podstawowy kernel Jupytera, o czym p
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><small><b>Przykład wykonania funkcji <i>print</i> w Python 3.5:</b></small></p>
+<p><b>Funkcja <i>print</i> w Python 3.5:</b></p>
 
 </div>
 </div>
@@ -255,7 +257,7 @@ Od wersji 4.0 IPython funkcjonuje już jako podstawowy kernel Jupytera, o czym p
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><small><b>Przykład wywołania obiektu tabeli (DataFrame) w Python 2.7 z wykorzystaniem biblioteki Pandas:</b></small></p>
+<p><b>Tabela Pandas w Python 2.7:</b></p>
 
 </div>
 </div>
@@ -338,9 +340,9 @@ Od wersji 4.0 IPython funkcjonuje już jako podstawowy kernel Jupytera, o czym p
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Kernele-do-ponad-40-języków">Kernele do ponad 40 j&#281;zyk&#243;w<a class="anchor-link" href="#Kernele-do-ponad-40-języków">&#182;</a></h2><p>W sumie nie znalazłem dobrego tłumaczenia dla słowa kernel. W przypadku Jupytera "kernele" to interpretery różnych języków, które można dograć do podstawowej wersji. Z drugiej strony takie środowiska zawierają również dodatkowe funkcje ułatwiające pracę w Jupyterze, stąd też trudno określić je jedynie jako interpreter.</p>
 <p>Listę dostępnych kerneli znajdziemy pod tym adresem <a href="https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages">LINK</a></p>
-<p><img src="./media/jupyter-katalog2.png" alt="Alt Text"> <br />
-<small>Możliwość wyboru kernela w jakim mają być wykonywane komórki Jupytera</small></p>
-
+<!--
+![Alt Text]({filename}/media/jupyter-katalog2.png) <br/>
+<small>Możliwość wyboru kernela w jakim mają być wykonywane komórki Jupytera</small>-->
 </div>
 </div>
 </div>
@@ -349,7 +351,7 @@ Od wersji 4.0 IPython funkcjonuje już jako podstawowy kernel Jupytera, o czym p
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Markdown">Markdown<a class="anchor-link" href="#Markdown">&#182;</a></h2><p>Komówki notesowe mają swoje typy. Domyślnym typem jest oczywiście komórka na wpisanie kodu. Drugim ciekawym typem jest komórka interpretująca <a href="http://daringfireball.net/projects/markdown/">Markdown</a>. Dzięki temu w Jupyterze można ładnie komentować kod, jak także obiekty wynikowe i poczuć się właśnie jak Galielusz ponad 400 lat temu.</p>
+<h2 id="Markdown">Markdown<a class="anchor-link" href="#Markdown">&#182;</a></h2><p>Komórki notesowe mają swoje typy. Domyślnym typem jest oczywiście komórka na wpisanie kodu. Drugim ciekawym typem jest komórka interpretująca <a href="http://daringfireball.net/projects/markdown/">Markdown</a>. Dzięki temu w Jupyterze można ładnie komentować kod, jak także obiekty wynikowe i poczuć się właśnie jak Galielusz ponad 400 lat temu.</p>
 
 </div>
 </div>
@@ -364,10 +366,10 @@ Od wersji 4.0 IPython funkcjonuje już jako podstawowy kernel Jupytera, o czym p
 <li>Istnieje <a href="https://github.com/ibm-et/spark-kernel">kernel</a> integrujący Jupytera ze <a href="http://spark.apache.org/">Sparkiem</a><br /></li>
 <li>Jupyterowy notatnik w formacie <i>*.ipynb</i> zapisywany jest jako JSON. Dzięki temu może być wykorzystany do wygenerowania wpisu na blogu :). W <a href="http://blog.getpelican.com/">Pelicanie</a> wystarczy doinstalować plugin <a href="https://github.com/danielfrg/pelican-ipynb">pelican-ipynb</a>, co sprawia, że Jupyter staje się również świetnym CMSem.<br /></li>
 <li>Wbudowany w program NBConverter pozwala na przerobienie notatnika na prezentację w formacie HTML, z wykorzystaniem biblioteki <a href="http://lab.hakim.se/reveal-js/#/">reveal.js</a>. Robi się to jedną komendą!<br /></li>
-<li>Jupyterowy notatnik może być wyeksportowany do formatu HTML, lub PDF z wykorzystaniem LaTeXa.<br /></li>
+<li>Jupyterowy notatnik może być wyeksportowany do formatu HTML lub PDF z wykorzystaniem LaTeXa.<br /></li>
 <li>Domyślny kernel Jupytera (IPython) rozszerza dodatkowo możliwości biblioteki <a href="http://rpy.sourceforge.net/">rpy2</a> pozwalającej na łączenie kodu Pythona i R. O czym będzie kolejny wpis.<br /></li>
 <li>Jupyter zbudowany jest w oparciu o pythonowy framework <a href="http://www.tornadoweb.org/en/stable/">Tornado</a></li>
-<li>Jest podpowiadanie składni
+<li>W notatniku jest podpowiadanie składni
 <br /><br /></li>
 <li>Niestety małą bolączką jest jeszcze wersjonowanie notatników. Przeważnie zalecane jest korzystanie z <a href="https://pypi.python.org/pypi/bookstore/1.0.0">bookstore</a>. Alteratywne rozwiązanie to przeformatowanie JSONa na Markdowna z pomocą wtyczki <a href="https://github.com/rossant/ipymd">ipymd</a> i wykorzystanie gita. Pod flagą IPythona program trochę lepiej sobie z tym radził. Może ktoś zna jakiś lepszy sposób?<br /></li>
 <li>Krytyka Jupytera: <a href="http://www.r-bloggers.com/why-i-dont-like-jupyter-fka-ipython-notebook/">r-bloggers.com</a></li>
